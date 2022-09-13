@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/styles.css" />
-    <link rel="stylesheet" href="styles/menu.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
@@ -229,10 +228,10 @@
         </div>
         <div class="contact-card">
           <div class="margin_default">
-            <div class="star">
+            <!-- <div class="star">
               <i class="fa-solid fa-gift"></i>
               <img src="assets/Star.svg" alt="" />
-            </div>
+            </div> -->
             <div class="details-wrapper">
               <div class="left">
                 <h5>Get Started</h5>
@@ -336,21 +335,85 @@
             <a href="#" class="Text Text_Light">Contact Me</a>
           </div>
           <div class="right">
-            <div class="question question-1">
-              <h4 class="Text_Light">A digital agency is a business</h4>
-              <img src="assets/down.svg" alt="down-arrow" />
-            </div>
-            <div class="question question-2">
-              <h4 class="Text_Light">Hire to outsource your digital</h4>
-              <img src="assets/down.svg" alt="down-arrow" />
-            </div>
-            <div class="question question-3">
-              <h4 class="Text_Light">Marketing efforts</h4>
-              <img src="assets/down.svg" alt="down-arrow" />
-            </div>
-            <div class="question question-4">
-              <h4 class="Text_Light question-4">Can provide your business</h4>
-              <img src="assets/down.svg" alt="down-arrow" />
+            <div class="questions-wrapper">
+              <div id="question-1" class="question-1 question-general-styling">
+                <div class="question">
+                  <h4 id="title-1" class="Text_Dark">
+                    A digital agency is a business
+                  </h4>
+                  <img
+                    id="downarrow-1"
+                    class="faq-icon-clicked"
+                    src="assets/down.svg"
+                    alt="dropdown-icon"
+                  />
+                </div>
+                <div class="answer">
+                  <p id="answer-1" class="Text Text_Dark_Gray">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Magnam voluptas perferendis incidunt placeat, eum impedit
+                    ullam fuga qui exercitationem asperiores?
+                  </p>
+                </div>
+              </div>
+              <div id="question-2" class="question-2 question-general-styling">
+                <div class="question">
+                  <h4 id="title-2" class="Text_Light">
+                    Hire to outsource your digital
+                  </h4>
+                  <img
+                    id="downarrow-2"
+                    class=""
+                    src="assets/down.svg"
+                    alt="dropdown-icon"
+                  />
+                </div>
+                <div id="answer-2" class="answer answer-off">
+                  <p class="Text Text_Dark_Gray">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Magnam voluptas perferendis incidunt placeat, eum impedit
+                    ullam fuga qui exercitationem asperiores?
+                  </p>
+                </div>
+              </div>
+              <div id="question-3" class="question-3 question-general-styling">
+                <div class="question">
+                  <h4 id="title-3" class="Text_Light">Marketing efforts</h4>
+                  <img
+                    id="downarrow-3"
+                    class=""
+                    src="assets/down.svg"
+                    alt="dropdown-icon"
+                  />
+                </div>
+                <div id="answer-3" class="answer answer-off">
+                  <p class="Text Text_Dark_Gray">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Magnam voluptas perferendis incidunt placeat, eum impedit
+                    ullam fuga qui exercitationem asperiores?
+                  </p>
+                </div>
+              </div>
+              <div id="question-4" class="question-4 question-general-styling">
+                <div class="question">
+                  <h4 id="title-4" class="Text_Light">
+                    Can provide your business
+                  </h4>
+                  <img
+                    id="downarrow-4"
+                    class=""
+                    src="assets/down.svg"
+                    alt="dropdown-icon"
+                  />
+                </div>
+                <div id="answer-4" class="answer answer-off">
+                  <p class="Text Text_Dark_Gray">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Magnam voluptas perferendis incidunt placeat, eum impedit
+                    ullam fuga qui exercitationem asperiores?
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -533,6 +596,6 @@
         </div>
       </footer>
     </div>
-    <script src="functions.js"></script>
+    <script src="scripts/functions.js"></script>
   </body>
 </html>

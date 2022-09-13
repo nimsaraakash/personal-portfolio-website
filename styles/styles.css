@@ -661,33 +661,68 @@ a {
     max-width: 470px;
 }
 
-.faq .question {
-    display: flex;
-    width: 570px;
-    height: 113px;
-    justify-content: space-between;
-    align-items: center;
-    padding: 40px 34px 41px 48px;
-    border: 1px solid #3A3C56;
+/* faq right */
+
+.questions-wrapper {
+    max-width: 570px;
+    margin: auto;
 }
 
-.faq .question-1 {
-    border: 1px solid #3A3C56;
+.question-1 {
+    background-color: white;
     border-radius: 6px 6px 0px 0px;
-}
-
-.faq .question-2 {
     border: 1px solid #3A3C56;
-    margin-top: -1px;
 }
 
-.faq .question-3 {
-    margin-top: -1px;
+.question-general-styling {
+    padding: 40px 34px 44px 50px;
 }
 
-.faq .question-4 {
+.question {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.faq-background-white {
+    background: white !important;
+}
+
+.faq-background-none {
+    background: transparent;
+    border: 1px solid #3A3C56;
+}
+
+.answer-off {
+    display: none;
+    transition: opacity 1s ease-out;
+}
+
+.answer-on {
+    display: block;
+}
+
+.answer p{
+    padding-top: 36px;
+    max-width: 470px;
+}
+
+.question-2 {
     margin-top: -1px;
-    border-radius: 0px 0px 6px 6px;
+    border: 1px solid #3A3C56;
+}
+.question-3 {
+    margin-top: -1px;
+    border: 1px solid #3A3C56;
+}
+.question-4 {
+    margin-top: -1px;
+    border: 1px solid #3A3C56;
+}
+
+.faq-icon-clicked {
+    transform: rotate(-180deg);
+    
 }
 
 .partners .logo{
@@ -1240,10 +1275,7 @@ footer {
         margin: auto;
     }
 
-    .faq-wrapper .right {
-        margin: auto;
-        padding-top: 50px;
-    }
+    
 
     .blog {
         display: flex;
@@ -1540,9 +1572,8 @@ footer {
         margin: auto;
     }
 
-    .faq-wrapper .right {
-        margin: auto;
-        padding-top: 50px;
+    .questions-wrapper {
+        margin-top: 36px;
     }
 
     .blog {
@@ -1674,18 +1705,6 @@ footer {
 
     .partners {
         display: none;
-    }
-
-    .faq .question{
-        padding-left: 10px;
-        width: 100%;
-    }
-
-    .faq .question h4 {
-        font-size: 16px;
-    }
-    .faq .question img {
-        padding-left: 20px;
     }
 
     .footer-wrapper {
