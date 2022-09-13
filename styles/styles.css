@@ -718,11 +718,11 @@ a {
 .question-4 {
     margin-top: -1px;
     border: 1px solid #3A3C56;
+    border-radius: 0px 0px 6px 6px;
 }
 
 .faq-icon-clicked {
     transform: rotate(-180deg);
-    
 }
 
 .partners .logo{
